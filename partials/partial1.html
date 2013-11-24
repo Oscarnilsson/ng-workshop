@@ -1,6 +1,6 @@
 <div class="fixedTop">
-	<button class="header archive btn btn-danger" ng-click="archive()">Archive</button>
-	<span class="header remaining">{{remaining()}} of {{todos.length}} remaining</span>
+	<button class="header archive btn btn-danger">Archive</button>
+	<span class="header remaining"></span>
 </div>
 
 <div class="main">
@@ -25,7 +25,7 @@
 </div>
 
 <div class="centerWide" ng-init="todos=[{text:'Build webapp', done:false}, {text:'Be awesome', done:true}, {text:'Eat cake', done:true}]">
-	        <div class="my-repeat-animation resultBox" ng-repeat="todo in todos | filter:searchText" ng-click="check(todo)">
+	        <div class="animation resultBox" ng-repeat="todo in todos | filter:searchText" ng-click="check(todo)">
 		        <div class="done-{{todo.done}}">
 		          <span class="todoText done-{{todo.done}}">{{todo.text}}</span>
 		        </div>
