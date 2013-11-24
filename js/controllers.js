@@ -4,13 +4,7 @@ angular.module('myApp.controllers', [])
 
 function($scope) {
 			
-			// $scope.todos = [
-		 //    {text:'Build webapp', done:false},
-		 //    {text:'Be awesome', done:true},
-		 //    {text:'Eat cake', done:true}];
-		 
 		  $scope.addTodo = function() {
-		  	console.log('addtodo');
 		    $scope.todos.push({text:$scope.todoText, done:false});
 		    $scope.todoText = '';
 		  };
