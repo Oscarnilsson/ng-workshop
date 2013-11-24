@@ -1,0 +1,239 @@
+/* app css stylesheet */
+
+
+body, html, .menu, #partials {
+
+  background-color: #373E41;
+  margin: 0px;
+  padding: 0px;
+  height: 0px;
+
+}
+
+.main {
+
+    width: 800px;
+    margin-right: auto;
+    margin-left: 10%;
+    height: 100px;
+}
+
+.leftSearch {
+    position: relative;
+    float: left;
+    width: 50%;
+}
+
+.right {
+    position: relative;
+    float: right;
+    width: 50%;
+}
+
+.topHeader {
+    margin-left: 10%;
+    margin-right: auto;
+}
+
+
+
+.customList {
+    margin-left: 0px;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 0px;    
+}
+
+.searchInput {
+    height: 50px;
+    font-size: 26px;
+    border-radius: 4px;
+}
+
+.addBtn {
+    height: 50px;
+    width: 90px;
+    margin-top: -10px;
+}
+
+.searchBtn {
+    height: 50px;
+    width: 90px;
+    margin-top: -10px;
+}
+
+.todoInput {
+    height: 50px;
+    font-size: 26px;
+    border-radius: 4px;
+}
+
+.todoList {
+    margin-top: 10px;
+    color: #e5e5e5;
+}
+
+.todoText {
+    font-size: 36px;
+    font-family: "Roboto Slab", "Serif";
+}
+
+
+
+.topNav {
+    max-width: 100%;
+    height: 150px;
+    background-color: #373E41;
+    margin-right: auto;
+    margin-left: auto;
+
+
+}
+
+.navButtons {
+    max-width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#topNavBtn {
+
+    font-size: 20px;
+    height: 70px;
+    width: 49%;
+    display: inline;
+    padding: 0px, 0px, 0px, 0px;
+    margin: 0px, 0px, 0px, 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.done-true {
+    background-color: #5cb85c;
+    padding: 10px;
+    border-radius: 4px;
+
+
+}
+
+.done-false {
+    background-color: #5cb85c;
+    padding: 10px;
+    background-color: #e5e5e5;
+    border-radius: 4px;
+
+
+}
+
+.centerWide {
+    margin-top: 30px;
+    margin-left: 10%;
+    margin-right: auto;
+    width: 800px;
+    padding-bottom: 30px;
+}
+
+.header {
+
+    color: #767676;
+    font-size: 36px;
+    font-family: "Roboto Slab", "Serif";
+
+}
+
+.large {
+    font-size: 60px;
+    color: #e5e5e5;
+}
+
+
+
+.resultText {
+    color: #373E41;
+    margin-bottom: 0px;
+}
+
+.input {
+    width: 500px;
+    height: 50px;
+    font-size: 26px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+
+ }
+
+ .center {
+    margin-right: auto;
+    margin-left: auto;
+    width: 200px;
+ }
+
+ .resultBox {
+    font-size: 20px;
+    margin: 5px 0px 5px 0px;
+    color: #373E41;
+    cursor: pointer;
+ }
+
+ .archive {
+    position: relative;
+    float: right;
+    font-size: 22px;
+    padding-right: 20px;
+ }
+
+.remaining {
+    position: relative;
+    float: left;
+    font-size: 30px;
+    top: -5px;
+}
+
+ .fixedTop {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    width: 350px; 
+ }
+
+
+
+
+.my-repeat-animation.ng-enter, 
+.my-repeat-animation.ng-leave, 
+.my-repeat-animation.ng-move {
+  -webkit-transition: 0.3s linear all;
+  -moz-transition: 0.3s linear all;
+  -o-transition: 0.3s linear all;
+  transition: 0.3s linear all;
+  position:relative;
+}
+
+.my-repeat-animation.ng-enter {
+  left:-20px;
+  opacity:0;
+}
+.my-repeat-animation.ng-enter.ng-enter-active {
+  left:0;
+  opacity:1;
+}
+
+.my-repeat-animation.ng-leave {
+  left:0;
+  opacity:1;
+}
+.my-repeat-animation.ng-leave.ng-leave-active {
+  left:-20px;
+  opacity:0;
+}
+
+.my-repeat-animation.ng-move {
+  opacity:0.5;
+}
+.my-repeat-animation.ng-move.ng-move-active {
+  opacity:1;
+}
+
+
