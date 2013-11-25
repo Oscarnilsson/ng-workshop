@@ -201,9 +201,9 @@ body, html, .menu, #partials {
 
 
 
-.my-repeat-animation.ng-enter, 
-.my-repeat-animation.ng-leave, 
-.my-repeat-animation.ng-move {
+.animation.ng-enter, 
+.animation.ng-leave, 
+.animation.ng-move {
   -webkit-transition: 0.3s linear all;
   -moz-transition: 0.3s linear all;
   -o-transition: 0.3s linear all;
